@@ -5,40 +5,46 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    color: rgba(65, 44, 148, 0.878);
+    color: rgba(65, 44, 148);
     background-color: #e4e3d3;
+   
     
 }
 
 h1 {
     font-weight: 200;
-    border-bottom: 1px rgba(65, 44, 148, 0.878) solid; 
-    text-align: center;
-    
 }
 
 span {
     font-weight: 400;
 }
 
-p {
+/* p {
     margin-top: 2px;
     font-size: 0.8em;
     text-align: inherit;
     align-items: left;
-}
+} */
 
-div {
+.div {
+    padding-top: 20px;
+}
+.div1 {
     display:flex;
     justify-content:center;
     align-items:center;
-    
-    
-    
+    border-bottom: 1px solid rgba(65, 44, 148);    
+}
+
+.div2 {
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
 a {
     text-decoration: none;
-    color: rgba(65, 44, 148, 0.878);
+    color: rgba(65, 44, 148);
+    margin: 10px 30px;
     
 }
