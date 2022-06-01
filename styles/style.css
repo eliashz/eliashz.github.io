@@ -5,14 +5,15 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    background-color: #f6faf8;
+    color: rgba(65, 44, 148, 0.878);
+    background-color: #e4e3d3;
+    
 }
 
 h1 {
     font-weight: 200;
- /*    border-bottom: 1px black solid; */
-    
+    border-bottom: 1px rgba(65, 44, 148, 0.878) solid; 
+    text-align: center;
     
 }
 
@@ -24,13 +25,20 @@ p {
     margin-top: 2px;
     font-size: 0.8em;
     text-align: inherit;
+    align-items: left;
 }
 
 div {
-    padding-top: 20%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+    
+    
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: rgba(65, 44, 148, 0.878);
+    
 }
