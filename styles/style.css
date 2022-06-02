@@ -6,9 +6,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     color: rgba(65, 44, 148);
-    background-color: #e4e3d3;
-   
-    
+    background-color: #e4e3d3;    
 }
 
 h1 {
@@ -19,15 +17,14 @@ span {
     font-weight: 400;
 }
 
-/* p {
+p {
     margin-top: 2px;
     font-size: 0.8em;
-    text-align: inherit;
-    align-items: left;
-} */
+    text-align: center;
+} 
 
 .div {
-    padding-top: 20px;
+    padding-top: 5px;
 }
 .div1 {
     display:flex;
@@ -40,11 +37,14 @@ span {
     display:flex;
     justify-content:center;
     align-items:center;
-}
+} 
 
 a {
     text-decoration: none;
     color: rgba(65, 44, 148);
     margin: 10px 30px;
-    
+}
+
+a:hover {
+    font-weight:bold;
 }
