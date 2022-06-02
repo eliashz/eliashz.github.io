@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -20,7 +21,6 @@ span {
 p {
     margin-top: 2px;
     font-size: 0.8em;
-    text-align: center;
 } 
 
 .div {
@@ -30,7 +30,7 @@ p {
     display:flex;
     justify-content:center;
     align-items:center;
-    border-bottom: 1px solid rgba(65, 44, 148, 0.878);    
+    border-bottom: 1px solid rgba(65, 44, 148, 0.878);   
 }
 
 .div2 {
@@ -46,6 +46,5 @@ a {
 }
 
 a:hover {
-     font-weight: bolder;
-    
+     font-weight: bolder;    
 }
