@@ -5,27 +5,29 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: rgba(65, 44, 148, 0.878);
     background-color: #e4e3d3;    
 }
 
-h1 {
-    font-weight: 200;
+h2 {
+    font-weight: 100;
 }
 
 span {
-    font-weight: 400;
+    font-weight: 300;
 }
 
 p {
     margin-top: 2px;
-    font-size: 0.8em;
+    font-size: 0.7em;
+    font-weight: 300;
 } 
 
 .div {
     padding-top: 5px;
 }
+
 .div1 {
     display:flex;
     justify-content:center;
@@ -35,8 +37,7 @@ p {
 
 .div2 {
     display:flex;
-    justify-content:center;
-    align-items:center;
+    justify-content: center;
 } 
 
 a {
@@ -46,5 +47,5 @@ a {
 }
 
 a:hover {
-     font-weight: bolder;    
+     font-weight: 400;    
 }
