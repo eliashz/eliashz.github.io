@@ -6,13 +6,12 @@
 }
 
 body {
-
     color: #023047;
     background-color: #e4e3d3;    
-    
 }
 
 h2 {
+    font-size: 2em;
     font-weight: 100;
 }
 
@@ -28,7 +27,6 @@ p {
 
 .div {
     padding-top: 5px;
-  
 }
 
 .div1 {
@@ -36,7 +34,6 @@ p {
     justify-content:center;
     align-items:center;
     border-bottom: 1px solid #023047;   
-    
 }
 
 .div2 {
@@ -83,7 +80,7 @@ footer {
 a {
     text-decoration: none;
     color: #023047;
-    margin: 10px 19px;
+    margin: 10px 38px;
 
 }
 
