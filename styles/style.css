@@ -10,6 +10,12 @@ body {
     background-color: #e4e3d3;    
 }
 
+header {
+    width: 50%;
+    margin: 2em auto 0 auto;
+    text-align: center;
+}
+
 h2 {
     font-size: 2em;
     font-weight: 100;
@@ -100,4 +106,9 @@ div.card:hover {
         align-items: center;
         margin: 50px;
     }
+
+    a {
+        margin: 10px 20px;
+    }
+
 }
