@@ -1,3 +1,8 @@
+:root {
+    --fondo: #e4e3d3;
+    --fuente: #023047;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +12,7 @@
 
 body {
     color: #023047;
-    background-color: #e4e3d3;    
+    background-color: var(--fondo);    
 }
 
 header {
@@ -39,7 +44,7 @@ p {
     display:flex;
     justify-content:center;
     align-items:center;
-    border-bottom: 1px solid #023047;   
+    border-bottom: 1px solid var(--fuente);   
 }
 
 .div2 {
@@ -58,18 +63,18 @@ div.container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-left: 1px solid #023047;
-    border-top: 1px solid #023047;
+    border-left: 1px solid var(--fuente);
+    border-top: 1px solid var(--fuente);
     margin: 50px 100px;
     padding: 7px;
 }
 
 div.card {
-    color: #023047;
+    color: var(--fuente);
     padding: 7px;
     margin-top: 50px;
-    border-left: 1px solid #023047;
-    border-top: 1px solid #023047;
+    border-left: 1px solid var(--fuente);
+    border-top: 1px solid var(--fuente);
     width: 250px;
     display: flex;
     flex-direction: column;
@@ -78,14 +83,14 @@ div.card {
 
 footer {
     font-size: 0.6em;
-    border-top: 1px solid #023047;
+    border-top: 1px solid var(--fuente);
     margin-top: 300px;
     text-align: center;
 }
 
 a {
     text-decoration: none;
-    color: #023047;
+    color: var(--fuente);
     margin: 10px 38px;
 
 }
@@ -95,8 +100,8 @@ a:hover {
 }
 
 div.card:hover {
-    color: #e4e3d3;
-    background-color: #023047dd;
+    color: var(--fondo);
+    background-color: var(--fuente);
 }
 
 @media(max-width: 757px) {
