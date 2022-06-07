@@ -117,3 +117,17 @@ div.card:hover {
     }
 
 }
+
+@media(max-width: 540px) {
+    div.container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px;
+    }
+
+    a {
+        margin: 10px 10px;
+    }
+
+}
