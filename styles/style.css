@@ -56,7 +56,7 @@ div.container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
+    margin-top: 4em;
 }
 
 .bio {
