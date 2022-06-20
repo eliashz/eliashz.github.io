@@ -11,7 +11,7 @@
 }
 
 body {
-    color: #023047;
+    color: var(--fuente);
     background-color: var(--fondo);    
 }
 
@@ -96,7 +96,6 @@ a {
     text-decoration: none;
     color: var(--fuente);
     margin: 10px 38px;
-
 }
 
 a:hover {
@@ -133,5 +132,40 @@ div.card:hover {
     a {
         margin: 10px 10px;
     }
-
 }
+
+/* @media (prefers-color-scheme: dark) {
+    body{
+        color: var(--fondo);
+        background-color: var(--fuente);    
+    }
+    .div1 {
+        border-bottom: 1px solid var(--fondo);   
+    }
+    
+    .bio {
+        border-left: 1px solid var(--fondo);
+        border-top: 1px solid var(--fondo);
+    }
+    
+    div .card {
+        color: var(--fondo);
+        border-left: 1px solid var(--fondo);
+        border-top: 1px solid var(--fondo);
+    }
+    
+    footer {
+        border-top: 1px var(--fondo) solid;
+    }
+    
+    a {
+        text-decoration: none;
+        color: var(--fondo);
+
+    }
+
+    div.card:hover {
+        color: var(--fuente);
+        background-color: var(--fondo);
+    }
+}  */
