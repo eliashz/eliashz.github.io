@@ -134,7 +134,7 @@ div.card:hover {
     }
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
     body{
         color: var(--fondo);
         background-color: var(--fuente);    
@@ -168,4 +168,4 @@ div.card:hover {
         color: var(--fuente);
         background-color: var(--fondo);
     }
-}  */
+} 
