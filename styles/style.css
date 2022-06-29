@@ -33,10 +33,52 @@ header::after {
 
 .logo {
     float: left;
+    padding: 10px 0;
 }
 
 nav {
     float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0.6em;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+
+    position: relative;
+}
+
+nav a {
+    color: var(--fondo);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    font-weight: 300;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 2px;
+    background-color: #e4e3d3;
+    
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition: all ease-in-out 150ms;
+}
+
+nav a:hover::before {
+    width: 100%;
 }
 
 /* ------------------ */
@@ -118,22 +160,22 @@ footer {
     margin-top: 200px;
 }
 
-a {
+section a {
     text-decoration: none;
-    color: var(--fondo);
+    color: var(--fuente);
     margin: 10px 38px;
 }
 
-a:hover {
+/* a:hover {
      font-weight: 400;    
-}
+} */
 
 div.card:hover {
     color: var(--fondo);
     background-color: var(--fuente);
 }
 
-@media(max-width: 757px) {
+/* @media(max-width: 757px) {
     div.container {
         display: flex;
         flex-direction: column;
@@ -158,7 +200,7 @@ div.card:hover {
     a {
         margin: 10px 10px;
     }
-}
+} */
 
 /* Dark mode */
 /* @media (prefers-color-scheme: dark) {
