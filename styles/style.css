@@ -14,12 +14,38 @@ body {
     color: var(--fuente);
     background-color: var(--fondo);    
 }
+/* Nav Bar  https://www.youtube.com/watch?v=FEmysQARWFU*/
+.navBar {
+    width: 80%;
+    margin: 0 auto;
+}
 
 header {
+    background-color: var(--fuente);
+    color: var(--fondo)
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+/* ------------------ */
+
+/* header {
     width: 50%;
     margin: 2em auto 0 auto;
     text-align: center;
-}
+} */
 
 h2 {
     font-size: 2em;
@@ -94,7 +120,7 @@ footer {
 
 a {
     text-decoration: none;
-    color: var(--fuente);
+    color: var(--fondo);
     margin: 10px 38px;
 }
 
@@ -134,7 +160,8 @@ div.card:hover {
     }
 }
 
-@media (prefers-color-scheme: dark) {
+/* Dark mode */
+/* @media (prefers-color-scheme: dark) {
     body{
         color: var(--fondo);
         background-color: var(--fuente);    
@@ -168,4 +195,4 @@ div.card:hover {
         color: var(--fuente);
         background-color: var(--fondo);
     }
-} 
+}  */
