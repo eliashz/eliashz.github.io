@@ -13,6 +13,7 @@
 body {
     color: var(--fuente);
     background-color: var(--fondo);    
+    font-size: 1.1em;
 }
 
 header {
