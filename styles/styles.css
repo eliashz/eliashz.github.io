@@ -192,4 +192,9 @@ div.bio:hover {
         color: var(--fuente);
         background-color: var(--fondo);
     }
+
+    div.bio:hover {
+        color: var(--fuente);
+        background-color: var(--fondo);
+    }
 } 
