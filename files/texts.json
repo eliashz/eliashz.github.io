@@ -2,11 +2,11 @@
     "eng": [
         "contact", 
         "Telecommunications Engineer specialized in image and sound with extensive work experience in the audiovisual sector. Considerate, attentive to detail, adaptable to change, thoughtful and decisive.",
-        "I am currently redirecting my career to web development for which I have trained by doing the bootcamp of IT Academy in backend with Node.js, where I have gained experience designing APIs with Express, testing them in Postman and working with relational and non-relational databases.", 
-        "I have also trained on the client side doing projects in React and HTML and CSS.",
+        "I'm currently redirecting my career to web development for which I have trained by doing the bootcamp of IT Academy in backend with Node.js, where I have gained experience designing APIs with Express, testing them in Postman and working with relational and non-relational databases.", 
+        "I've also trained on the client side doing projects in React and HTML and CSS.",
         "Real time application developed with Node.js, React, Mongo DB, Express and Sockets.io. The user can create an account, send messages and create chat rooms.",
-        "JavaScript, HTML and CSS proyect, which revieves data from an API with players and teams statistics ftom the NBA. Deploy on GitHun Pages.",
-        "REST API which gives support a dices game. "
+        "JavaScript, HTML and CSS proyect, which recieves data from an external API which provides information about players and teams from the NBA. Deploy on GitHub Pages.",
+        "REST API which gives support a dices game. Developed with Node.js, Express and Mongo DB and MySQL for the data persistence. For testing the endpoints Postman is needed."
 
     ],
     "spa": [
