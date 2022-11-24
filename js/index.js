@@ -15,15 +15,20 @@ const language = localStorage.getItem('language');
 const engSpaMenu = document.getElementById('language');
 const engSpaText = document.querySelectorAll('.language');
 const engSpaA = document.getElementById('cv');
-
+console.log(engSpaText.length)
 console.log(engSpaText[0])
 
-if(!language || language === 'SPA') {
+if(language || language === 'SPA') {
     engSpaMenu.textContent = 'ENG';
     engSpaA.setAttribute('href', "/files/RS-ehz.pdf");
-    engSpaText[0].textContent = texts.eng[0]
-    //engSpaText[1].textContent = ENG[1]
+    for (let i = 0; i < engSpaText.length; i++) {
+        engSpaText[i].textContent = texts.eng[i]        
+    }
 } else {
     engSpaMenu.textContent = 'SPA';
+    engSpaA.setAttribute('href', "/files/CV-ehz.pdf");
+    for (let i = 0; i < engSpaText.length; i++) {
+        engSpaText[i].textContent = texts.spa[i]        
+    }
 
 }
