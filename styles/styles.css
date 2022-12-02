@@ -19,8 +19,9 @@ body {
 
 #menu {
     font-size: 0.5em;
-    float: right;
-    margin: -20px 100px 0 0;
+    display: flex;
+    justify-content: flex-end;
+    margin: 30px 50px 0 0;
     cursor: pointer;
 }
 
@@ -132,14 +133,7 @@ div.bio:hover {
     background-color: var(--fuente);
 }
 
-/* @media(max-width: 918px) {
-    div.container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 50px;
-    }
-
+@media(max-width: 918px) {
     a {
         margin: 10px 20px;
     }
@@ -147,17 +141,10 @@ div.bio:hover {
 }
 
 @media(max-width: 569px) {
-    div.container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 50px;
-    }
-
     a {
         margin: 10px 10px;
     }
-} */
+}
 
 @media (prefers-color-scheme: dark) {
     body{
