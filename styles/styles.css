@@ -48,20 +48,28 @@ p {
 } 
 
 .div {
-    padding-top: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .div1 {
-    display:flex;
-    justify-content:center;
-    align-items:center;
     border-bottom: 1px solid var(--fuente);   
 }
 
 .div2 {
-    display:flex;
-    justify-content: center;
-} 
+    width: 325px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.div2 a,
+h3 {
+    padding: 0 3px;
+    margin-top: 1px;
+}
 
 div.container {
     display: flex;
@@ -84,7 +92,6 @@ div.container {
 div.card {
     color: var(--fuente);
     padding: 7px;
-    margin-top: 20px;
     padding: 15px 10px 40px 20px;
     border-left: 1px solid var(--fuente);
     border-top: 1px solid var(--fuente);
@@ -92,6 +99,8 @@ div.card {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin: 20px;
+
 }
 
 footer { 
@@ -112,38 +121,18 @@ footer p {
 a {
     text-decoration: none;
     color: var(--fuente);
-    margin: 10px 38px;
 }
 
-a:hover {
-    font-weight: 400;    
-}
-
-h3:hover {
-    font-weight: 400;    
-}
-
-div.card:hover {
+h3:hover,
+.div2 a:hover {
     color: var(--fondo);
     background-color: var(--fuente);
 }
 
+div.card:hover,
 div.bio:hover {
     color: var(--fondo);
     background-color: var(--fuente);
-}
-
-@media(max-width: 918px) {
-    a {
-        margin: 10px 20px;
-    }
-
-}
-
-@media(max-width: 569px) {
-    a {
-        margin: 10px 10px;
-    }
 }
 
 @media (prefers-color-scheme: dark) {
