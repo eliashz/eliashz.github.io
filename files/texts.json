@@ -2,8 +2,8 @@
     "eng": [
         "contact", 
         "Telecommunications Engineer specialized in image and sound with extensive work experience in the audiovisual sector. Attentive to detail, considerate, adaptable to change, thoughtful and decisive.",
-        "I'm currently redirecting my career to web development. I've trained in IT Academy's bootcamp in backend with Node.js, where I've gained experience designing APIs with Express, testing them in Postman and working with relational and non-relational databases.", 
-        "I've also trained on the client side doing projects in React and HTML and CSS.",
+        "I'm currently enjoying my first experience as Python and Javascript developer in CREAF. I've also trained in IT Academy's bootcamp in backend with Node.js, where I've gained experience designing APIs with Express, testing them in Postman and working with relational and non-relational databases.", 
+        "I also have experience on the client side doing projects in React and HTML and CSS.",
         "Real time application developed with Node.js, React, Mongo DB, Express and Sockets.io. The user can create an account, send messages and create chat rooms.",
         "JavaScript, HTML and CSS proyect, which recieves data from an external API which provides information about players and teams from the NBA. Deploy on GitHub Pages.",
         "REST API which gives support a dices game. Developed with Node.js, Express and Mongo DB and MySQL for the data persistence. For testing the endpoints Postman is needed."
@@ -12,8 +12,8 @@
     "spa": [
         "contacto",
         "Ingeniero en Telecomunicaciones especializado en imagen y sonido con alta experiencia laboral en el sector audiovisual. Considerado, atento, con adaptación para el cambio, detallista y resolutivo.",
-        "Actualmente estoy reorientando mi carrera al desarrollo web para el cual me he formado realizando el bootcamp de IT Academy en backend con Node.js, donde he adquirido experiencia diseñando APIs con Express, probándolas en Postman y trabajando con bases de datos relacionales y no-relacionales.",
-        "También me he formado en el lado del cliente realizando proyectos en React y en HTML y CSS.",
+        "Actualmente estoy disfrutanto de mi primera experiencia como full-stack developer en Python y Javascript en CREAF. También me he formado realizando el bootcamp de IT Academy en backend con Node.js, donde he adquirido experiencia diseñando APIs con Express, probándolas en Postman y trabajando con bases de datos relacionales y no-relacionales.",
+        "También tengo experiencia en el lado del cliente realizando proyectos en React y en HTML y CSS.",
         "Aplicación de chat en tiempo real realizada con Node.js, React, Mongo DB, Express y Sockets.io. Donde el usuario puede crear una cuenta, enviar mensajes y crear salas de chat.",
         "Proyecto realizado con JavaScript, HTML y CSS que recibe datos de una API con estadísticas sobre jugadores y equipos de la NBA. Deploy en GitHub Pages.",
         "REST API que da soporte a un juego de dados. Se ha usado Node.js, Express y para la persistencia de datos Mongo DB y MySQL. Para la prueba de los endpoints es necesario Postman."
