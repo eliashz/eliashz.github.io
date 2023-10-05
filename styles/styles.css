@@ -1,13 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Chonburi&display=swap');
+
 :root {
-    --fondo: #e4e3d3;
-    --fuente: #023047;
+    --fondo: #f7d5b1;
+    --fuente: #2c3950;
+    --fuente-principal: 'Roboto', sans-serif;
+    --fuente-titulos: 'Roboto', sans-serif;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--fuente-principal);
 }
 
 
@@ -31,14 +35,15 @@ header {
     text-align: center;
 }
 
-
 h2 {
+    font-family: var(--fuente-titulos);
     font-size: 2em;
     font-weight: 100;
 }
 
-span {
-    font-weight: 300;
+
+h4 {
+    font-family: var(--fuente-titulos);
 }
 
 p {
