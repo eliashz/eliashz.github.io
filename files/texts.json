@@ -5,8 +5,9 @@
     "With experience as Python and Javascript developer in CREAF. I've also trained in IT Academy's bootcamp in backend with Node.js, where I've gained experience designing APIs with Express, testing them in Postman and working with relational and non-relational databases.",
     "I also have experience on the client side doing projects in React and HTML and CSS.",
     "The RedBosquesClima application allows you to assess the risk of drought in a forest. I had the opportunity to work from scratch with HTML, CSS, Javascript, Python, PostgreSQL and the PostGIS extension.",
-    "JavaScript, HTML and CSS proyect, which recieves data from an external API which provides information about players and teams from the NBA. Deploy on GitHub Pages.",
-    "REST API which gives support a dices game. Developed with Node.js, Express and Mongo DB and MySQL for the data persistence. For testing the endpoints Postman is needed."
+    "Add new features to an app which manage large quantities of data: to publish the training offers, collect personal data and authorizations, the assistance signatures, inscriptions, evaluation surveys, accompaniment sessions to projects, etc.",
+    "· work in progress · ",
+    "Web application that manages the reservations of the public space of the Barcelona City Council, Bloc4."
   ],
   "spa": [
     "contacto",
@@ -14,7 +15,8 @@
     "Con experiencia como full-stack developer de Python, Javascript y PostgreSQL en CREAF, donde he trabajado en la aplicación web de RedBosques Clima.",
     "Me he formado en Node.js realizando el bootcamp de IT Academy, donde he adquirido experiencia diseñando APIs con Express, probándolas en Postman y trabajando con bases de datos relacionales y no-relacionales. También tengo experiencia en el lado del cliente realizando proyectos en React y en HTML y CSS.",
     "La aplicación de RedBosquesClima permite valorar el riesgo a la sequía de un bosque. Tuve la oportunidad de trabajar desde 0 con HTML, CSS, Javascript, Python, PostgreSQL y la extensión PostGIS.",
-    "Proyecto realizado con JavaScript, HTML y CSS que recibe datos de una API con estadísticas sobre jugadores y equipos de la NBA. Deploy en GitHub Pages.",
-    "REST API que da soporte a un juego de dados. Se ha usado Node.js, Express y para la persistencia de datos Mongo DB y MySQL. Para la prueba de los endpoints es necesario Postman."
+    "Añadir nuevas funcionalidades a una aplicación que gestiona grandes volúmenes de datos: para publicar la oferta formativa, recoger datos personales y autorizaciones, las firmas de asistencia, inscripciones, encuestas de valoración, las sesiones de acompañamiento a proyectos, etc.",
+    "· en desarrollo ·",
+    "Aplicación web que gestiona las reservas del espacio público del ayuntamiento de Barcelona, Bloc4."
   ]
 }
