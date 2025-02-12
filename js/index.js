@@ -42,4 +42,4 @@ const changeLanguage = language => {
     localStorage.setItem("language", "eng");
   }
 };
-engSpaMenu.addEventListener("click", () => changeLanguage(engSpaMenu.textContent)); // jaskjkadsjkas
+engSpaMenu.addEventListener("click", () => changeLanguage(engSpaMenu.textContent));
