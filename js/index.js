@@ -3,6 +3,7 @@ const languageLS = localStorage.getItem("language");
 const engSpaMenu = document.getElementById("language");
 const engSpaText = document.querySelectorAll(".language");
 const engSpaA = document.getElementById("cv");
+const year = document.querySelector("#current-year");
 
 fetch("/files/texts.json")
   .then(response => response.json())
@@ -13,23 +14,18 @@ fetch("/files/texts.json")
   .catch(error => console.error("Error cargando el JSON:", error));
 
 // Footer Year
-const year = document.querySelector("#current-year");
-
 year.innerHTML = new Date().getFullYear();
 
 // Language versions
-
-
+if (!languageLS) {
+  if (navigator.language === "es-ES") {
+    changeLanguage("spa");
+  } else {
+    changeLanguage("eng");
+  }
+}
 const changeLanguage = language => {
-
-  if (language === "eng") {
-    engSpaMenu.textContent = "spa";
-    engSpaA.setAttribute("href", "/files/RS-ehz.pdf");
-    for (let i = 0; i < engSpaText.length; i++) {
-      engSpaText[i].textContent = texts.eng[i];
-    }
-    localStorage.setItem("language", "eng");
-  } else if (language === "spa") {
+  if (language === "spa" || navigator.language === "es-ES") {
     engSpaMenu.textContent = "eng";
     engSpaA.setAttribute("href", "/files/CV-ehz.pdf");
     for (let i = 0; i < engSpaText.length; i++) {
@@ -37,5 +33,13 @@ const changeLanguage = language => {
     }
     localStorage.setItem("language", "spa");
   }
+  if (language === "eng") {
+    engSpaMenu.textContent = "spa";
+    engSpaA.setAttribute("href", "/files/RS-ehz.pdf");
+    for (let i = 0; i < engSpaText.length; i++) {
+      engSpaText[i].textContent = texts.eng[i];
+    }
+    localStorage.setItem("language", "eng");
+  }
 };
-engSpaMenu.addEventListener("click", () => changeLanguage(engSpaMenu.textContent));
+engSpaMenu.addEventListener("click", () => changeLanguage(engSpaMenu.textContent)); // jaskjkadsjkas
