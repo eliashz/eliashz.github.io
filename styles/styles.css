@@ -145,7 +145,7 @@ div.bio:hover {
 }
 
 @media (prefers-color-scheme: dark) {
-    body{
+    body {
         color: var(--fondo);
         background-color: var(--fuente);    
     }
@@ -171,14 +171,13 @@ div.bio:hover {
     a {
         text-decoration: none;
         color: var(--fondo);
-
     }
 
     h3:hover,
     .div2 a:hover {
     color: var(--fuente);
     background-color: var(--fondo);
-}
+    }
 
     div.card:hover, 
     div.bio:hover {
