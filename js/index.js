@@ -5,25 +5,9 @@ const engSpaText = document.querySelectorAll(".language");
 const engSpaA = document.getElementById("cv");
 const year = document.querySelector("#current-year");
 
-fetch("/files/texts.json")
-  .then(response => response.json())
-  .then(data => {
-    texts = data;
-    changeLanguage(languageLS || "eng");
-  })
-  .catch(error => console.error("Error cargando el JSON:", error));
-
 // Footer Year
 year.innerHTML = new Date().getFullYear();
 
-// Language versions
-if (!languageLS) {
-  if (navigator.language === "es-ES") {
-    changeLanguage("spa");
-  } else {
-    changeLanguage("eng");
-  }
-}
 const changeLanguage = language => {
   if (language === "spa" || navigator.language === "es-ES") {
     engSpaMenu.textContent = "eng";
@@ -43,3 +27,20 @@ const changeLanguage = language => {
   }
 };
 engSpaMenu.addEventListener("click", () => changeLanguage(engSpaMenu.textContent));
+
+fetch("/files/texts.json")
+  .then(response => response.json())
+  .then(data => {
+    texts = data;
+    changeLanguage(languageLS || "eng");
+  })
+  .catch(error => console.error("Error cargando el JSON:", error));
+
+// Language versions
+if (!languageLS) {
+  if (navigator.language === "es-ES") {
+    changeLanguage("spa");
+  } else {
+    changeLanguage("eng");
+  }
+}

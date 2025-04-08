@@ -6,10 +6,9 @@
     "As a backend developer, I have experience in carrying out projects from 0 to production, with Python, Django, PostgreSQL and Docker. I also have experience in adding new functionalities to already created projects. Where I have been able to work with technologies such as htmx, unit testing and testing with Selenium.",
     "As a full stack developer I have worked at CREAF, where I developed the RedBosques Clima web application.",
     "I have trained in Node.js by doing the IT Academy bootcamp, where I have gained experience designing APIs with Express, testing them in Postman and working with relational and non-relational databases. I also have experience on the client side doing projects in React and in HTML and CSS.",
+    "BookDAPer is an application for the publishing sector that calculates the environmental impact of books and magazines. Developed with Python, Django and PostgreSQL. I had the opportunity to apply technologies such as Hyperscript and htmx for the automatic calculation of the results",
     "The RedBosquesClima application allows you to assess the risk of drought in a forest. I had the opportunity to work from scratch with HTML, CSS, Javascript, Python, PostgreSQL and the PostGIS extension.",
-    "Add new features to an app which manage large quantities of data: to publish the training offers, collect personal data and authorizations, the assistance signatures, inscriptions, evaluation surveys, accompaniment sessions to projects, etc.",
-    "· work in progress · ",
-    "Web application that manages the reservations of the public space of the Barcelona City Council, Bloc4."
+    "Add new features to an app which manage large quantities of data: to publish the training offers, collect personal data and authorizations, the assistance signatures, inscriptions, evaluation surveys, accompaniment sessions to projects, etc."
   ],
   "spa": [
     "contacto",
@@ -18,9 +17,8 @@
     "Como desarrollador backend, tengo experiencia en realizar proyectos desde 0 hasta producción, con Python, Django, PostgreSQL y Docker. También tengo experiencia en añadir funcionalidades nuevas a proyectos ya creados. Donde he podido trabajar con tecnologías como htmx, test unitario y test con Selenium.",
     "Como full stack developer he trabajdo en CREAF, donde he desarrollado la aplicación web de RedBosques Clima.",
     "Me he formado en Node.js realizando el bootcamp de IT Academy, donde he adquirido experiencia diseñando APIs con Express, probándolas en Postman y trabajando con bases de datos relacionales y no-relacionales. También tengo experiencia en el lado del cliente realizando proyectos en React y en HTML y CSS.",
+    "BookDAPer es una aplicación para el sector editorial que calcula el impacto ambiental de libros y revistas. Realizada con Python, Django y PostgreSQL. Tuve la oportunidad de aplicar tecnologías como Hyperscript y htmx para el cálculo automático de los resultados",
     "La aplicación de RedBosquesClima permite valorar el riesgo a la sequía de un bosque. Tuve la oportunidad de trabajar desde 0 con HTML, CSS, Javascript, Python, PostgreSQL y la extensión PostGIS.",
-    "Añadir nuevas funcionalidades a una aplicación que gestiona grandes volúmenes de datos: para publicar la oferta formativa, recoger datos personales y autorizaciones, las firmas de asistencia, inscripciones, encuestas de valoración, las sesiones de acompañamiento a proyectos, etc.",
-    "· en desarrollo ·",
-    "Aplicación web que gestiona las reservas del espacio público del ayuntamiento de Barcelona, Bloc4."
+    "Añadir nuevas funcionalidades a una aplicación que gestiona grandes volúmenes de datos: para publicar la oferta formativa, recoger datos personales y autorizaciones, las firmas de asistencia, inscripciones, encuestas de valoración, las sesiones de acompañamiento a proyectos, etc."
   ]
 }
