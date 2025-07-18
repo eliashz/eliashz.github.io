@@ -9,12 +9,14 @@ const year = document.querySelector("#current-year");
 year.innerHTML = new Date().getFullYear();
 
 const changeLanguage = language => {
+  const linkedinLink = document.getElementById("linkedin");
   if (language === "spa" || navigator.language === "es-ES") {
     engSpaMenu.textContent = "eng";
     engSpaA.setAttribute("href", "/files/CV-ehz.pdf");
     for (let i = 0; i < engSpaText.length; i++) {
       engSpaText[i].textContent = texts.spa[i];
     }
+    linkedinLink.href = "https://www.linkedin.com/in/eliashuerta/";
     localStorage.setItem("language", "spa");
   }
   if (language === "eng") {
@@ -23,10 +25,13 @@ const changeLanguage = language => {
     for (let i = 0; i < engSpaText.length; i++) {
       engSpaText[i].textContent = texts.eng[i];
     }
+    linkedinLink.href = "https://www.linkedin.com/in/eliashuerta/?locale=en_US";
     localStorage.setItem("language", "eng");
   }
 };
-engSpaMenu.addEventListener("click", () => changeLanguage(engSpaMenu.textContent));
+engSpaMenu.addEventListener("click", () =>
+  changeLanguage(engSpaMenu.textContent)
+);
 
 fetch("/files/texts.json")
   .then(response => response.json())
