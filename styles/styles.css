@@ -138,6 +138,14 @@ h3:hover,
     background-color: var(--fuente);
 }
 
+h3,
+.div2 a,
+div.card,
+div.bio {
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+
 div.card:hover,
 div.bio:hover {
     color: var(--fondo);
